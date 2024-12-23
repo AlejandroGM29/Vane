@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cielo Estrellado con Video</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="sky">
+    <!-- Luna -->
+    <div class="moon"></div>
+
+    <!-- Cielo estrellado -->
+    <div id="stars"></div>
+    <div id="shooting-stars"></div>
+    <div id="fireworks-container"></div>
+
+    <!-- Recuadro dorado con fondo transparente -->
+    <div class="golden-card">
+      <!-- Imagen tipo pin -->
+      <div class="pinned-image">
+        <img src="image.png" alt="Pin" />
+      </div>
+      <!-- Reproductor de video -->
+      <video id="video" controls>
+        <source src="EsVerdad.mp4" type="video/mp4" />
+        Tu navegador no soporta el elemento de video.
+      </video>
+      <!-- Caja de texto -->
+      <div class="card-text">
+        <p id="texto">Hola preciosa, maybe esto es algo raro ajsajs pero dale una chance, solo dale play.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
