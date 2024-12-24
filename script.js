@@ -5,117 +5,85 @@ audio.onplay = function () {
 
 async function updateStage() {
   await mostrarMensajeConDuracion(
-    "Sé que nos conocemos prácticamente nada",
-    4 * 1000
-  );
-  await mostrarMensajeConDuracion(
-    "Que nos conocemos muy poco, que hemos interactuado poco, y que faltan cosas por saber aún de uno sobre el otro.",
-    9 * 1000
-  );
-  await mostrarMensajeConDuracion(
-    "Pero eso no quita que, la verdad, me gustes.",
-    4 * 1000
-  );
-  await mostrarMensajeConDuracion(
-    "Aún falta mucho por saber sobre ti, pero quiero saber todo lo que pueda. Quiero aprender a quererte, aprender sobre ti.",
+    "Bueno, estuve pensando mucho y quería dedicarte una canción",
     10 * 1000
   );
   await mostrarMensajeConDuracion(
-    "Quiero saber tus gustos, entenderlos, saber qué cosas te emocionan, qué cosas te enojan.",
-    7 * 1000
+    "no sabía exactamente cuál, porque sentía que cualquiera sería demasiado intensa, pero esta me gustó",
+    16 * 1000
   );
   await mostrarMensajeConDuracion(
-    "Quiero saber qué platillo te hace bailar de emoción cada vez que lo pruebas, conocer tus postres favoritos, y tus climas preferidos.",
-    11 * 1000
+    "hay muchas cosas que quería decirte, mucho que quiero expresarte, pero a la vez tampoco sabía cómo hacerlo",
+    16 * 1000
   );
   await mostrarMensajeConDuracion(
-    "Quiero conocer tus sueños, saber qué es lo que quieres lograr, y acompañarte el día que los cumplas.",
+    "de verdad me llamas la atención, Vane",
+    6 * 1000
+  );
+  await mostrarMensajeConDuracion(
+    "estás muy linda o al menos lo que he visto en fotos",
+    10 * 1000
+  );
+  await mostrarMensajeConDuracion(
+    "tienes un estilo muy bonito que me encanta, además de que tus facciones se me hacen muy lindas, tienes unas cejas preciosas",
+    19 * 1000
+  );
+  await mostrarMensajeConDuracion(
+    "y bueno, sé que no nos conocemos mucho aún, que apenas llevamos semanas hablando, pero lo poco que he conocido de ti me gusta",
+    19 * 1000
+  );
+  await mostrarMensajeConDuracion(
+    "tu personalidad, cómo afrontas los problemas",
     8 * 1000
   );
   await mostrarMensajeConDuracion(
-    "Porque me gustas. Porque, a pesar de que aún falta muchísimo por conocer sobre ti, todo lo que he conocido hasta hoy me ha encantado.",
+    "que estés 'chisquiada', que seas 'racista' JAJAJ y cómo te expresas",
     11 * 1000
   );
   await mostrarMensajeConDuracion(
-    "Me encantan tus ojitos color café preciosos, me encantan tus pestañas tan bonitas, me encanta tu nariz hermosa y, ¡por Dios!, tus cachetitos y tu cejas tan bonitas.",
+    "todo eso me parece muy lindo de ti",
+    6 * 1000
+  );
+  await mostrarMensajeConDuracion(
+    "y sé que tienes muchos problemas detrás, que hay mucho que tienes que afrontar aún, pero me gustaría poder acompañarte, ¿sabes?",
+    21 * 1000
+  );
+  await mostrarMensajeConDuracion(
+    "siento que eres una persona con la que comparto muchas ideas y que de verdad me agrada muchísimo tu forma de ser",
+    19 * 1000
+  );
+  await mostrarMensajeConDuracion(
+    "el hablar contigo por mensaje o por llamada, todo eso se pasa volando",
+    12 * 1000
+  );
+  await mostrarMensajeConDuracion(
+    "disfruto mucho de ti, de tus conversaciones, de tus enojos, de tus quejas y de tus repentinos cariños",
+    16 * 1000
+  );
+  await mostrarMensajeConDuracion(
+    "me muero de ganas de conocerte, de saber más sobre ti, saber qué otras cosas te molestan y cuáles te hacen feliz",
+    18 * 1000
+  );
+  await mostrarMensajeConDuracion(
+    "quiero aprender de ti, qué comida te hace feliz probar, qué dulce es tu favorito",
     14 * 1000
   );
   await mostrarMensajeConDuracion(
-    "Me encanta tu cabello rizado sin definición, me encanta cómo lo llevas, ya sea suelto o amarrado. Adoro cómo te maquillas, me encantan tus delineados.",
-    13 * 1000 /* 10 */
-  );
-  await mostrarMensajeConDuracion("ME ENCANTAS TÚ.", 3 * 1000);
-  await mostrarMensajeConDuracion(
-    "Ni hablar de tu personalidad, tu forma de ser.",
-    4 * 1000
+    "conocer la historia de tus cicatrices y cómo te las habrás hecho, conocer tus pasatiempos",
+    15 * 1000
   );
   await mostrarMensajeConDuracion(
-    "A pesar de todo, nunca te has rendido. Has seguido adelante, eres una persona fuerte, inteligente y trabajadora.",
-    9 * 1000
+    "vaya, conocerte a ti en general y tratar de darte el amor y cariño que algunas veces me has contado que buscas",
+    19 * 1000
   );
   await mostrarMensajeConDuracion(
-    "Eres de verdad una persona maravillosa, de la cual sé que cualquiera estaría orgulloso de tener a su lado.",
-    8 * 1000
-  );
-  await mostrarMensajeConDuracion(
-    "Por eso quiero conocerte, aprender y saber de ti. Porque lo vales, vales totalmente la pena.",
-    7 * 1000
-  );
-  await mostrarMensajeConDuracion(
-    "Me gustas, Auri, y quiero gustarte. No quiero que las cosas sean incómodas, pero no podría perdonarme no intentarlo, teniendo a alguien tan maravillosa como tú enfrente.",
+    "me alegro mucho de empezar este próximo año pudiendo aprender sobre ti",
     13 * 1000
   );
   await mostrarMensajeConDuracion(
-    "Aunque no lo creas, tienes una luz muy bonita, algo que me inspira confianza, y cada vez que veo una foto tuya me da muchísima paz.",
-    8.5 * 1000
-  );
-  await mostrarMensajeConDuracion(
-    "Te quiero mucho, Auri preciosa. Quiero saber sobre ti, aprender sobre ti, y conocerte de todas las maneras posibles.",
-    8 * 1000
-  );
-  await mostrarMensajeConDuracion(
-    "Me gustas, y no me cansaré de decirte lo hermosa que eres, la paz que me das, y sobre todo las ganas de salir adelante que inspiras en quienes te rodean.",
-    13 * 1000
-  );
-  /*  */
-  await mostrarMensajeConDuracion(
-    "Quiero que me cuentes tus dias, como te la pasas, que tanto haces, que cosas te molestaron y que cosas te alegraron.",
+    "de verdad muchas gracias por todo, Vane, ¡te quiero muchooo!",
     10 * 1000
-  );
-  await mostrarMensajeConDuracion(
-    "Quiero saber como estas, cuando estes feliz o triste, quiero que tengas siempre la confianza de poder desahogarte en cualquier situacion conmigo.",
-    10 * 1000
-  );
-  await mostrarMensajeConDuracion(
-    "Quiero aportarte, no quiero ser una molestia, un estorbo ni una perdida de tiempo, quiero dar todo de mi para que te sientas realizada al estar conmigo.",
-    10 * 1000
-  );
-  await mostrarMensajeConDuracion(
-    "Quiero hacerte feliz, pero sobre todo quiero verte ser feliz.",
-    10 * 1000
-  );
-  await mostrarMensajeConDuracion(
-    "Se que aun hay mucho por hacer, se que no llevas una vida tranquila y encontrar un espacio libre en tus dias para alguien es complicado.",
-    10 * 1000
-  );
-  await mostrarMensajeConDuracion(
-    "Y lo entiendo, no quiero hacerte la vida mas complicada de lo que ya la tienes, quiero encontrar la manera de apoyarte.",
-    10 * 1000
-  );
-  await mostrarMensajeConDuracion(
-    "Quiero estar para ti Auri, quiero verte triunfar y salir adelante, quiero que estes bien y puedas conseguir estar orgullosa de ti misma en algun momento.",
-    10 * 1000
-  );
-
-  /*  */
-  await mostrarMensajeConDuracion(
-    "No sé qué más decirte, pero te quiero mucho y de verdad quiero poder verte completamente feliz algún día.",
-    8 * 1000
-  );
-  await mostrarMensajeConDuracion(
-    "¡TE QUIERO MUCHO, NIÑA HERMOSAAAAAAA!",
-    6 * 1000
-  );
+  );  
 }
 
 function mostrarMensajeConDuracion(mensaje, duracion) {
@@ -144,6 +112,7 @@ function escribirMensaje(mensaje) {
     }
   }, 60); // Intervalo de tiempo entre cada carácter (velocidad de escritura)
 }
+
 const starsContainer = document.getElementById("stars");
 const shootingStarsContainer = document.getElementById("shooting-stars");
 const fireworksContainer = document.getElementById("fireworks-container");
